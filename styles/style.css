@@ -158,3 +158,44 @@ color: #757575;
 .resume-download{
 margin-top: 50px;
 }
+
+/* footer styles */
+/* .footer-column{
+
+padding: 130px 230px;
+display: flex;
+} */
+ footer{
+/* text-align: center; */
+display: flex;
+padding: 130px 230px;
+gap:100px;
+
+  
+ }
+
+ .footer-column{
+  width: 50%;
+ }
+ footer input[type="text"] ,footer input[type="email"] {
+  height: 64px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 24px;
+  border:none;
+  display: block;
+  color: #757575;
+ }
+ footer textarea{
+  height: 180px;
+  border:none;
+   display: block;
+   background-color: white;
+   margin-bottom: 24px;
+    width: 100%;
+    color: #757575;
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
