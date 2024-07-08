@@ -131,3 +131,30 @@ gap: 40px;
   box-shadow:0px 6px  50px 0px rgba(0, 0, 0, 0.06) ;
   border-radius: 5px;
 }
+/* resume styles */
+.resume-container{
+display: flex;
+gap: 24px;
+}
+.resume-column-title{
+  font-weight: bold;
+font-size: 30px;
+color: #474747;
+}
+.experience-title{
+font-weight: bold;
+font-size: 25px;
+color: #474747;
+}
+.experience-sub-title{
+font-weight: 600;
+font-size: 20px;
+color: #757575;
+}
+.exeprience-description{
+font-size: 16px;
+color: #757575;
+}
+.resume-download{
+margin-top: 50px;
+}
